@@ -22,15 +22,15 @@ Depoying to Android (from Linux)
 11. buildozer -v android debug
 
 Deploying to iOS (from MacOS)
-brew install pkg-config sdl2 sdl2_image sdl2_ttf sdl2_mixer gstreamer autoconf automake
-python3 -m pip install --upgrade pip virtualenv kivy-ios
-pip3 install Cython==0.29.36
-brew install autoconf
-brew install automake
-export PATH=$PATH:~/.local/bin/
+1. brew install pkg-config sdl2 sdl2_image sdl2_ttf sdl2_mixer gstreamer autoconf automake
+2. python3 -m pip install --upgrade pip virtualenv kivy-ios
+3. pip3 install Cython==0.29.36
+4. brew install autoconf
+5. brew install automake
+6. export PATH=$PATH:~/.local/bin/
 
 Download XCode from the App Developer store.
 Older OSes can install from https://developer.apple.com/download/all/?q=xcode
 
-pip3 install --user --upgrade buildozer
-buildozer -v ios debug
+7. pip3 install --user --upgrade buildozer
+8. buildozer -v ios debug
